@@ -66,7 +66,7 @@ export default class UserList extends React.Component {
     handleSortBy = e => param => {
 
         var sortBy = param.target.value;
-        this.setState({ Data: this.state.filteredData.sort((a, b) => sortByValue(a, b, sortBy)), SortBy: param.target.value }, () => {
+        this.setState({ filteredData: this.state.filteredData.sort((a, b) => sortByValue(a, b, sortBy)), SortBy: param.target.value }, () => {
             console.log(this.state.SortBy);
         });
     }
