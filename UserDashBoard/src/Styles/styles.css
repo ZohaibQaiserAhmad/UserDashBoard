@@ -1,0 +1,105 @@
+.selectSmall {
+	appearance: none;
+    width:95VW;
+    height : 24px;
+    margin-bottom: 36px;
+}
+
+.searchSmall {
+    width:90VW;
+    height : 20px;
+}
+
+.peopleSmall:nth-child(even){
+    border-top: 0.5px solid gray;
+    background-color: #F5F5F5;
+    padding:24px;
+}
+
+.peopleSmall:nth-child(odd){
+    border-top: 0.5px solid gray;
+    padding:24px;        
+}
+
+.personList {
+    list-style-type: none;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+    float: left;
+    margin-right:16px;
+  }
+
+.emailBig {
+    list-style-type: none;
+    right: 24px;
+    position: absolute;
+    margin-top: -24px;
+    
+}
+
+.searchBig{
+    margin : 40px;
+    width : 6VW;
+    position: absolute;
+    right:8VW;
+}
+
+.selectBig {
+	appearance: none;
+    margin : 40px;
+    width : 6VW;
+    height: 20px;
+    position: absolute;
+    right:0;
+}
+
+.positionSortBy{
+    width : 8VW;
+    position: absolute;
+    right:0;
+}
+
+.positionSearch {
+
+    width : 16VW;
+    position: absolute;
+    right:0;
+
+}
+
+.container {
+    display: flex;
+    margin-left : 0;
+  }
+
+
+.peopleBig:nth-child(even){
+    border: 0.5px solid gray;
+    background-color: #F5F5F5;
+    padding:24px;
+    margin-right:12px;
+    margin-left:12px;
+}
+
+.peopleBig:nth-child(odd):not(:last-child){
+    border: 0.5px solid gray;
+    padding:24px;  
+    margin-right:12px;
+    margin-left:12px;  
+    border-top:none;
+    border-bottom: none;
+}
+
+.peopleBig:last-child{
+    border: 0.5px solid gray;
+    padding:24px;  
+    margin-right:12px;
+    margin-left:12px;  
+    border-top:none;
+}
+
