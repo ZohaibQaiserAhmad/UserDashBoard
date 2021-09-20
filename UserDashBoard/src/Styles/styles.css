@@ -43,39 +43,34 @@
 }
 
 .searchBig{
-    margin : 40px;
-    width : 6VW;
-    position: absolute;
-    right:8VW;
+    width : 10VW;
 }
 
 .selectBig {
 	appearance: none;
-    margin : 40px;
-    width : 6VW;
+    width : 10VW;
     height: 20px;
-    position: absolute;
-    right:0;
 }
 
 .positionSortBy{
-    width : 8VW;
-    position: absolute;
-    right:0;
+    align-self:flex-end;
+    
 }
 
 .positionSearch {
-
     width : 16VW;
-    position: absolute;
-    right:0;
-
+    
 }
 
 .container {
     display: flex;
-    margin-left : 0;
+    justify-content: space-between;
+    align-items: center;
   }
+
+.container__right {
+    display:flex;
+}
 
 
 .peopleBig:nth-child(even){
@@ -103,3 +98,8 @@
     border-top:none;
 }
 
+.container__column {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
